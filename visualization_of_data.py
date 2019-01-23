@@ -10,3 +10,6 @@ data.shape
 countries = data['CountryName'].unique().tolist()
 indicators = data['IndicatorName'].unique().tolist()
 
+# Picks years of choice
+yearsFilter = [2010, 2011, 2012, 2013, 2014]
+
