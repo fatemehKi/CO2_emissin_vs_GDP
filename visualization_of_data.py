@@ -13,3 +13,5 @@ indicators = data['IndicatorName'].unique().tolist()
 # Picks years of choice
 yearsFilter = [2010, 2011, 2012, 2013, 2014]
 
+# Pick 2 countries randomly
+countryFilter = random.sample(countries, 2)
